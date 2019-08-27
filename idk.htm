@@ -1,0 +1,623 @@
+<html>
+	<head>
+		<title>What Goes Where?</title>
+	<style>
+		#glass{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#paper{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#plastic{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#aluminum{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#can{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#cardboard{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#carton{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#food{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#bedding{
+		border-width: 5px;
+		border-style: solid;
+		border-color: purple;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#waste{
+		border-width: 5px;
+		border-style: solid;
+		border-color: purple;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#baby{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#balloon{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#bandage{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;
+		}
+		
+		#bottles{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;		
+		}
+		
+		#caps{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#dishes{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;		
+		}
+		
+		#brown{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#bubble{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#butcher{
+		border-width: 5px;
+		border-style: solid;
+		border-color: purple;
+		border-radius: 20px;
+		display: block;
+		width: 100px;		
+		}
+		
+		#butter{
+		border-width: 5px;
+		border-style: solid;
+		border-color: purple;
+		border-radius: 20px;
+		display: block;
+		width: 100px;	
+		}
+		
+		#candle{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;	
+		}
+		
+		#cellophane{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;	
+		}
+		
+		#cutlery{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#diaper{
+		border-width: 5px;
+		border-style: solid;
+		border-color: purple;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#straws{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#flour{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#foil{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#banana{
+		border-width: 5px;
+		border-style: solid;
+		border-color: purple;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}	
+
+		#liner{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}	
+
+		#glove{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#marker{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#matches{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+
+		#milk{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+
+		#news{
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+
+		#plastic{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}		
+		
+		#rubber{
+		border-width: 5px;
+		border-style: solid;
+		border-color: black;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}	
+
+		#shred{
+		border-width: 5px;
+		border-style: solid;
+		border-color: purple;
+		border-radius: 20px;
+		display: block;
+		width: 100px;			
+		}
+		
+		#two{
+		margin-left: 150px;
+		margin-top: -500px;
+		}
+		
+		#three{
+		margin-left: 300px;
+		margin-top: -480px;
+		}
+		
+		#four{
+		margin-left: 450px;
+		margin-top: -520px;
+		}
+		
+		#five{
+		margin-left: 600px;
+		margin-top: -460px;
+		}
+		
+		#six{
+		margin-left: 750px;
+		margin-top: -520px;		
+		}
+		
+		#seven{
+		margin-left: 900px;
+		margin-top: -490px;
+		}
+		
+		#eight{
+		margin-left: 1050px;
+		margin-top: -490px;
+		}
+		
+		}
+	</style>
+	</head>
+	<body>
+	
+	<div id="top" align="center">
+		<h1>Press Ctrl+F and type in your waste item.</h1>
+	</div>
+	
+	<div align="center">
+		<img src="images/IDK Colour Code.jpg" >
+	</div>
+	
+	<div id="aluminum" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Aluminum foil</h3>
+		</a>	
+	</div>	
+	<br>
+	<div id="bedding" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Animal bedding</h3>
+		</a>
+	</div>
+	<br>
+	<div id="waste" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Animal waste</h3>
+		</a>
+	</div>
+	<br>
+	<div id="baby" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Baby wipes<h3>
+		</a>
+	</div>
+	<br>
+	<div id="balloon" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Balloon</h3>
+		</a>
+	</div>
+	<br>
+<div id="two">
+	<div id="bandage" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Bandage</h3>
+		</a>
+	</div>
+	<br>
+	<div id="bottles" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Bottles</h3>
+		</a>
+	</div>
+	<br>
+	<div id="caps" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Bottle caps</h3>
+		</a>
+	</div>
+	<br>
+	<div id="dishes" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Broken dishes</h3>
+		</a>
+	</div>
+	<br>
+	<div id="brown" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Brown paper bag</h3>
+		</a>
+	</div>
+	<br>
+</div>	
+<div id="three">
+	<div id="bubble" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Bubble wrap</h3>
+		</a>
+	</div>
+	<br>
+	<div id="butcher" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Butcher paper</h3>
+		</a>
+	</div>
+	<br>	
+	<div id="butter" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Butter wrapper - paper</h3>
+		</a>
+	</div>
+	<br>
+	<div id="candle" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Candles</h3>
+		</a>
+	</div>
+	<br>
+	<div id="can" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Cans</h3>
+		</a>
+	</div>
+	<br>
+</div>
+<div id="four">
+	<div id="cardboard" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Cardboard</h3>
+		</a>
+	</div>
+	<br>
+	<div id="carton" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Cartons</h3>
+		</a>
+	</div>
+	<br>
+	<div id="cellophane" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Cellophane</h3>
+		</a>
+	</div>
+	<br>	
+	<div id="cutlery" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Cutlery - plastic</h3>
+		</a>
+	</div>
+	<br>	
+	<div id="diaper" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Diaper</h3>
+		</a>
+	</div>
+	<br>
+</div>	
+<div id="five">
+	<div id="straws" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Drinking straws</h3>
+		</a>
+	</div>
+	<br>
+	<div id="flour" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Flour bag</h3>
+		</a>
+	</div>
+	<br>
+	<div id="foil" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Foil wrappers</h3>
+		</a>
+	</div>
+	<br>	
+	<div id="liner" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Food box liner bag</h3>
+		</a>
+	</div>
+	<br>
+	<div id="food" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Food-soiled items</h3>
+		</a>
+	</div>
+	<br>
+</div>	
+<div id="six">
+	<div id="banana" align="center">
+		<a href="file:///C:/Website/loading.htm">
+			<h3>Food waste</h3>
+		</a>
+	</div>
+	<br>
+	<div id="glass" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Glass containers</h3>
+		</a>
+	</div>
+	<br>
+	<div id="paper" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Paper products</h3>
+		</a>
+	</div>
+	<br>
+	<div id="glove" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Latex gloves</h3>
+		</a>
+	</div>
+	<br>
+	<div id="marker" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Markers</h3>
+		</a>
+	</div>
+	<br>	
+</div>
+<div id="seven">
+	<div id="matches" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Matches</h3>
+		</a>
+	</div>
+	<br>
+	<div id="milk" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Milk pouches</h3>
+		</a>
+	</div>
+	<br>	
+	<div id="news" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Newspaper</h3>
+		</a>
+	</div>
+	<br>	
+	<div id="plastic" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Plastic wrap</h3>
+		</a>
+	</div>
+	<br>	
+	<div id="plastic" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Plastic products</h3>
+		</a>
+	</div>
+	<br>
+</div>
+<div id="eight">
+		<div id="rubber" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Rubber band</h3>
+		</a>
+	</div>
+	<br>
+		<div id="shred" align="center">
+		<a href="file:///C:/Website/loading.htm">
+		<h3>Shredded paper</h3>
+		</a>
+	</div>
+	<br>	
+</div>
+	</body>
+</html>
